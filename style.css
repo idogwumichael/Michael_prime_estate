@@ -1,0 +1,111 @@
+body {
+    font-family: "Poppins", times, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #17ad94;
+}
+
+h1, h2, h3 {
+    color: #fcf9fb;
+}
+
+p {
+    color: #f5f7f8;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+
+header .hero__title {
+    font-size: 50px;
+}
+
+header .hero__description {
+    text-decoration: underline;
+}
+
+
+.contact {
+    color: #f3f1f1;
+    text-align: center;
+    justify-content: center;
+    background-color: #10d240;
+}
+
+.affordable-housing {
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #3f5396;
+    border: #2522ac solid 5px;
+    border-color: brown;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.img__container {
+    background-color: #b5b5b5;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    background-image: url(https://media.istockphoto.com/id/157280107/photo/happy-family-on-front-porch.jpg?s=612x612&w=0&k=20&c=UOJ75VcUx8uk-99koOnejRRSuXOFmCgh7yNP1wxfRzY=);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonials__left, .testimonials__right {
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+.feature {
+    margin-left: 20px;
+}
+
+.pagination {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.pagination:hover {
+    background-color: #4b11ec;
+    color: white;
+    cursor: pointer;
+}
+
+a:link {
+    color: #f3f1f1;
+}
+
+a:visited {
+    color: #ec0707;
+}
+
+a:hover {
+    color: #0f1b88;
+}
+

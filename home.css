@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(172, 101, 60);
+    font-family: "Poppins", times, sans-serif;
+}
+
+.feature {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: underline;
+}
